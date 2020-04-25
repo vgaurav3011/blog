@@ -1,0 +1,40 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Vipul Gaurav
+tagline:          'SimplifAI'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              https://vipulgaurav.ml
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+# paginate:         5
+
+# Custom vars
+
+theme: "hyde"
+
+Menus:
+  main:
+    - Name: "Github"
+      URL: "https://github.com/vgaurav3011/"
+    - Name: "LinkedIn"
+      URL: "https://www.linkedin.com/in/vipulgaurav/"
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+
+plugins:
+	- jekyll-feed
+	- jekyll-gist
